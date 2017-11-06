@@ -1,0 +1,623 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #363636;
+  width: 100%;
+}
+
+header {
+  height: 64px;
+  border-bottom: solid 1px Gainsboro;
+  width: 100%;
+  display: flex;
+  line-height: 4;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  right: 0
+  background-color: white;
+  top: 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 32px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav li{
+  display: inline-flex;
+  list-style: none;
+  padding-left: 16px;
+  font-size: 22px;
+}
+
+.nav {
+  padding-right: 30px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: Gainsboro;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner img {
+  padding: 32px 24px 24px 24px;
+  width: 60%;
+  height: 650px;
+}
+
+.banner h1 {
+  padding-left: 24px;
+  font-size: 60px;
+  color: #363636;
+}
+
+.banner h2 {
+  padding-left: 24px;
+  font-size: 30px;
+  color: #363636;
+  line-height: 1.2;
+}
+
+.banner .button {
+  background-color: #363636;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-left: 24px;
+  margin-top: 60px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+ .content h3 {
+  color: white;
+  font-weight: normal;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: Teal;
+}
+
+
+.info-main img {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  width: 93%;
+}
+
+.info-main h1 {
+  padding-left: 24px;
+  font-size: 50px;
+}
+
+.info-main p {
+  padding-left: 24px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.info-main h4 {
+  font-weight: bold;
+  padding-left: 24px;
+  padding-top: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+.info{
+  width: 40%;
+  color: #363636;
+}
+
+.info img {
+  width: 35%;
+  height: auto;
+  padding-left: 5%;
+  align-self: center;
+}
+
+.orientation {
+  border-left: 1px solid Gainsboro;
+  border-bottom: 1px solid Gainsboro;
+  padding-bottom: 16px;
+  display: flex;
+  font-size: 20px;
+}
+
+.times {
+  padding-left: 24px;
+  padding-top: 50px;
+}
+
+.times a{
+  text-decoration: none;
+  color: Teal;
+}
+
+.orientation img {
+  padding-top: 32px;
+  align-self: center;
+}
+
+.campus {
+  border-left: 1px solid Gainsboro;
+  border-bottom: 1px solid Gainsboro;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  display: flex;
+  font-size: 20px;
+}
+
+.location {
+  padding-left: 24px;
+
+}
+
+.location a{
+  text-decoration: none;
+  color: Teal;
+}
+
+.lecture {
+  border-left: 1px solid Gainsboro;
+  border-bottom: 1px solid Gainsboro;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  display: flex;
+  font-size: 20px;
+  background-color: Gainsboro;
+}
+
+.keynote {
+  padding-left: 24px;
+
+}
+
+.keynote a{
+  text-decoration: none;
+  color: Teal;
+}
+
+.course-grid {
+  background-color: Gainsboro;
+  background-size: cover;
+  padding-bottom: 55px;
+  margin: 0;
+}
+
+.course-grid h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.courses h2 {
+  padding-left: 16px;
+}
+
+.courses p{
+  padding-left: 16px;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #7F7F7F;
+}
+
+.courses {
+  display: flex;
+  align-content: center;
+  padding-left: 72px;
+  padding-right: 72px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.software {
+  width: 400px;
+  margin-right: 32px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.software img {
+  height: auto;
+  width: 100%;
+}
+
+.computer {
+  width: 400px;
+  margin-right: 32px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.computer img {
+  height: auto;
+  width: 100%;
+}
+
+.design {
+  width: 400px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.design img {
+  height: auto;
+  width: 100%;
+}
+
+.data {
+  width: 400px;
+  margin-right: 32px;
+  background-color: white;
+}
+
+.data img {
+  height: auto;
+  width: 100%;
+}
+
+.business {
+  width: 400px;
+  margin-right: 32px;
+  background-color: white;
+}
+
+.business img {
+  height: auto;
+  width: 100%;
+}
+
+.marketing {
+  width: 400px;
+  background-color: white;
+}
+
+.marketing img {
+  height: auto;
+  width: 100%;
+}
+
+#last-title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.thesis-container{
+  width: 100%;
+  display: flex;
+}
+
+.video-container{
+  width: 60%;
+}
+
+video{
+  padding-left: 24px;
+}
+
+.right-info{
+  width: 40%;
+  margin: 0;
+}
+
+.thesis-fisma{
+  display: flex;
+  padding: 16px;
+  background-color: Gainsboro;
+}
+
+.thesis-fisma img{
+  width: 35%;
+  align-self: center;
+  height: auto;
+}
+
+.fisma-text{
+  padding-top: 5px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.thesis-now-then{
+  display: flex;
+  padding: 16px;
+}
+
+.now-then-text{
+  padding-top: 35px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.thesis-now-then img{
+  width: 35%;
+  align-self: center;
+  height: auto;
+}
+
+.thesis-container p{
+  color: #7F7F7F;
+}
+
+.bottom-text{
+  font-size: 20px;
+  padding-left: 24px;
+  line-height: 1.8;
+}
+
+.bottom-text p{
+  color: #7F7F7F;
+}
+
+.footer{
+  border-top: 1px solid Gainsboro;
+  height: 64px;
+  width: 100%;
+  color: #7F7F7F;
+}
+
+.footer div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright{
+  padding-left: 24px;
+}
+
+.terms-privacy{
+  padding-right: 24px;
+}
+
+.terms-privacy li{
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.mobile-header{
+  display: none;
+}
+
+#mobile-img{
+  display: none;
+}
+
+.mobile-courses{
+  display: none;
+}
+
+.mobile-video{
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-header{
+    display: flex;
+    height: 64px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .logo img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .logo span{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+  header ul{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner{
+    display:block;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner h1{
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner h2{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner .button{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .container .info-main{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .info{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .orientation{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .orientation .times{
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .orientation img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  #mobile-img{
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+  .campus{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .campus .location{
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .campus img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .lecture{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .lecture .keynote{
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .lecture img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .course-grid{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-courses{
+    display: block;
+    border-bottom: 1px solid Gainsboro;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-courses h1{
+    text-align: center;
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-courses h2{
+    display: block;
+    background-color: Gainsboro;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 24px;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .thesis-container, .bottom-text{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .mobile-video{
+    display: block;
+    width: 100%;
+    margin:0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  #mobile-vid{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .terms-privacy ul{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .footer{
+    padding-top: 24px;
+  }
+}
